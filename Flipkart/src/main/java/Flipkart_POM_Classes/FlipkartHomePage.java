@@ -12,8 +12,11 @@ public class FlipkartHomePage {
 // 	@FindBy (xpath="//button[@class='_2KpZ6l _2doB4z']")
 // 	WebElement exit;
 	
-	@FindBy (xpath="//button[@class='_2KpZ6l _2doB4z']Satkar")
-	WebElement exitAkash;
+	@FindBy (xpath="Akash")
+	private WebElement Satkar;
+	
+	@FindBy (xpath="//button[@class='_2KpZ6l _2doB4z']")
+	private WebElement exit;
 	
 	@FindBy (xpath = "//input[contains(@title,'Search for products')]")
 	private WebElement searchForProduct ;
