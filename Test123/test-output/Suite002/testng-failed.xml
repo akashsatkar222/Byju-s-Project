@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite002]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="ChromeTesting(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="TestNG.TestNGClass_Facebook_2">
+        <methods>
+          <include name="goToSignupForm"/>
+          <include name="termsPageOpen"/>
+          <include name="clearPOMObject"/>
+          <include name="beforeSuite"/>
+          <include name="createPOMObject"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="closeTheBrowser"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- TestNG.TestNGClass_Facebook_2 -->
+    </classes>
+  </test> <!-- ChromeTesting(failed) -->
+  <test thread-count="2" parallel="classes" name="EdgeTesting(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="TestNG.TestNGClass_Facebook_2">
+        <methods>
+          <include name="goToSignupForm"/>
+          <include name="termsPageOpen"/>
+          <include name="clearPOMObject"/>
+          <include name="beforeSuite"/>
+          <include name="createPOMObject"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="closeTheBrowser"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- TestNG.TestNGClass_Facebook_2 -->
+    </classes>
+  </test> <!-- EdgeTesting(failed) -->
+</suite> <!-- Failed suite [Suite002] -->

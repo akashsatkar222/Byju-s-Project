@@ -10,7 +10,7 @@ public class FlipkartHomePage {
 
 	// Variable : WebElement : Flipkart Home Page
 // 	@FindBy (xpath="//button[@class='_2KpZ6l _2doB4z']")
-// 	WebElement exit;
+// 	private WebElement exit;
 	
 	
 	@FindBy (xpath="//button[@class='_2KpZ6l _2doB4z']")
