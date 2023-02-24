@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite003" thread-count="2" parallel="tests">
+  <test thread-count="5" name="ChromeTesting" parallel="classes">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="TestNG.BuyACourse_TestNG"/>
+      <class name="TestNG.ScheduleFreeClass_TestNG"/>
+    </classes>
+  </test> <!-- SanityTest -->
+  
+  <test thread-count="5" name="EdgeTesting" parallel="classes">
+  <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="TestNG.BuyACourse_TestNG"/>
+      <class name="TestNG.ScheduleFreeClass_TestNG"/>
+    </classes>
+  </test> <!-- SanityTest -->
+</suite> <!-- Suite003 -->

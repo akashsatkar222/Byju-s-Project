@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite003]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="EdgeTesting(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="TestNG.BuyACourse_TestNG">
+        <methods>
+          <include name="selectCourse"/>
+          <include name="createPOMObject"/>
+          <include name="clearPOMObject"/>
+          <include name="beforeSuite"/>
+          <include name="launchTheBrowser"/>
+          <include name="buyASecondCourse"/>
+          <include name="afterMethod"/>
+          <include name="buyAFirstCourse"/>
+          <include name="afterSuite"/>
+          <include name="closeTheBrowser"/>
+        </methods>
+      </class> <!-- TestNG.BuyACourse_TestNG -->
+      <class name="TestNG.ScheduleFreeClass_TestNG">
+        <methods>
+          <include name="clickOnScheduleFreeClassButton"/>
+          <include name="enterYourDetails"/>
+          <include name="launchTheBrowser"/>
+          <include name="createPOMObject"/>
+          <include name="afterSuite"/>
+          <include name="clearPOMObject"/>
+          <include name="beforeSuite"/>
+          <include name="closeTheBrowser"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- TestNG.ScheduleFreeClass_TestNG -->
+    </classes>
+  </test> <!-- EdgeTesting(failed) -->
+  <test thread-count="2" parallel="classes" name="ChromeTesting(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="TestNG.BuyACourse_TestNG">
+        <methods>
+          <include name="selectCourse"/>
+          <include name="createPOMObject"/>
+          <include name="clearPOMObject"/>
+          <include name="beforeSuite"/>
+          <include name="launchTheBrowser"/>
+          <include name="buyASecondCourse"/>
+          <include name="afterMethod"/>
+          <include name="buyAFirstCourse"/>
+          <include name="afterSuite"/>
+          <include name="closeTheBrowser"/>
+        </methods>
+      </class> <!-- TestNG.BuyACourse_TestNG -->
+      <class name="TestNG.ScheduleFreeClass_TestNG">
+        <methods>
+          <include name="clickOnScheduleFreeClassButton"/>
+          <include name="enterYourDetails"/>
+          <include name="launchTheBrowser"/>
+          <include name="createPOMObject"/>
+          <include name="afterSuite"/>
+          <include name="clearPOMObject"/>
+          <include name="beforeSuite"/>
+          <include name="closeTheBrowser"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- TestNG.ScheduleFreeClass_TestNG -->
+    </classes>
+  </test> <!-- ChromeTesting(failed) -->
+</suite> <!-- Failed suite [Suite003] -->
