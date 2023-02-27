@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="ChromeTesting(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="TestNG.BuyACourse">
+        <methods>
+          <include name="closeTheBrowser"/>
+          <include name="buyACourse"/>
+          <include name="courseAddToCart"/>
+          <include name="launchTheBrowser"/>
+          <include name="clearPOMObject"/>
+          <include name="createPOMObject"/>
+          <include name="seeTheIASCourse"/>
+          <include name="backToCourseDetailsPage"/>
+        </methods>
+      </class> <!-- TestNG.BuyACourse -->
+    </classes>
+  </test> <!-- ChromeTesting(failed) -->
+  <test thread-count="2" parallel="classes" name="EdgeTesting(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="TestNG.BuyACourse">
+        <methods>
+          <include name="closeTheBrowser"/>
+          <include name="buyACourse"/>
+          <include name="courseAddToCart"/>
+          <include name="launchTheBrowser"/>
+          <include name="clearPOMObject"/>
+          <include name="createPOMObject"/>
+          <include name="seeTheIASCourse"/>
+          <include name="backToCourseDetailsPage"/>
+        </methods>
+      </class> <!-- TestNG.BuyACourse -->
+    </classes>
+  </test> <!-- EdgeTesting(failed) -->
+</suite> <!-- Failed suite [Regression] -->

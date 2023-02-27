@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-27T00:52:39 IST" name="Regression" finished-at="2023-02-27T00:53:02 IST" duration-ms="22525">
+    <groups>
+    </groups>
+    <test started-at="2023-02-27T00:52:39 IST" name="ChromeTesting" finished-at="2023-02-27T00:52:58 IST" duration-ms="18813">
+      <class name="TestNG.BuyACourse">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:TestNG.BuyACourse@9225652]" started-at="2023-02-27T00:52:39 IST" name="launchTheBrowser" finished-at="2023-02-27T00:52:41 IST" duration-ms="1139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:TestNG.BuyACourse@9225652]" started-at="2023-02-27T00:52:41 IST" name="createPOMObject" finished-at="2023-02-27T00:52:45 IST" duration-ms="3423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="seeTheIASCourse()[pri:0, instance:TestNG.BuyACourse@9225652]" started-at="2023-02-27T00:52:45 IST" name="seeTheIASCourse" finished-at="2023-02-27T00:52:52 IST" duration-ms="7102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeTheIASCourse -->
+        <test-method signature="buyACourse()[pri:-1, instance:TestNG.BuyACourse@9225652]" started-at="2023-02-27T00:52:52 IST" name="buyACourse" finished-at="2023-02-27T00:52:58 IST" duration-ms="6076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyACourse -->
+        <test-method is-config="true" signature="backToCourseDetailsPage()[pri:0, instance:TestNG.BuyACourse@9225652]" started-at="2023-02-27T00:52:58 IST" name="backToCourseDetailsPage" finished-at="2023-02-27T00:52:58 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToCourseDetailsPage -->
+        <test-method is-config="true" signature="clearPOMObject()[pri:0, instance:TestNG.BuyACourse@9225652]" started-at="2023-02-27T00:52:58 IST" name="clearPOMObject" finished-at="2023-02-27T00:52:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObject -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:TestNG.BuyACourse@9225652]" started-at="2023-02-27T00:52:58 IST" name="closeTheBrowser" finished-at="2023-02-27T00:52:58 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- TestNG.BuyACourse -->
+      <class name="TestNG.ScheduleFreeClass">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:TestNG.ScheduleFreeClass@19bb07ed]" started-at="2023-02-27T00:52:41 IST" name="launchTheBrowser" finished-at="2023-02-27T00:52:41 IST" duration-ms="711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="enterURL()[pri:0, instance:TestNG.ScheduleFreeClass@19bb07ed]" started-at="2023-02-27T00:52:41 IST" name="enterURL" finished-at="2023-02-27T00:52:44 IST" duration-ms="2389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:TestNG.ScheduleFreeClass@19bb07ed]" started-at="2023-02-27T00:52:44 IST" name="createPOMObject" finished-at="2023-02-27T00:52:44 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method signature="clickOnScheduleFreeClassButton()[pri:0, instance:TestNG.ScheduleFreeClass@19bb07ed]" started-at="2023-02-27T00:52:44 IST" name="clickOnScheduleFreeClassButton" finished-at="2023-02-27T00:52:45 IST" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnScheduleFreeClassButton -->
+        <test-method is-config="true" signature="clearPOMObject()[pri:0, instance:TestNG.ScheduleFreeClass@19bb07ed]" started-at="2023-02-27T00:52:45 IST" name="clearPOMObject" finished-at="2023-02-27T00:52:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObject -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:TestNG.ScheduleFreeClass@19bb07ed]" started-at="2023-02-27T00:52:45 IST" name="closeTheBrowser" finished-at="2023-02-27T00:52:45 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="clearSystem()[pri:0, instance:TestNG.ScheduleFreeClass@19bb07ed]" started-at="2023-02-27T00:52:58 IST" name="clearSystem" finished-at="2023-02-27T00:52:58 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearSystem -->
+      </class> <!-- TestNG.ScheduleFreeClass -->
+    </test> <!-- ChromeTesting -->
+    <test started-at="2023-02-27T00:52:39 IST" name="EdgeTesting" finished-at="2023-02-27T00:53:02 IST" duration-ms="22525">
+      <class name="TestNG.BuyACourse">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:TestNG.BuyACourse@6eda5c9]" started-at="2023-02-27T00:52:39 IST" name="launchTheBrowser" finished-at="2023-02-27T00:52:42 IST" duration-ms="2604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:TestNG.BuyACourse@6eda5c9]" started-at="2023-02-27T00:52:45 IST" name="createPOMObject" finished-at="2023-02-27T00:52:48 IST" duration-ms="3770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="seeTheIASCourse()[pri:0, instance:TestNG.BuyACourse@6eda5c9]" started-at="2023-02-27T00:52:48 IST" name="seeTheIASCourse" finished-at="2023-02-27T00:52:55 IST" duration-ms="6543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeTheIASCourse -->
+        <test-method signature="buyACourse()[pri:-1, instance:TestNG.BuyACourse@6eda5c9]" started-at="2023-02-27T00:52:55 IST" name="buyACourse" finished-at="2023-02-27T00:53:01 IST" duration-ms="5819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyACourse -->
+        <test-method is-config="true" signature="backToCourseDetailsPage()[pri:0, instance:TestNG.BuyACourse@6eda5c9]" started-at="2023-02-27T00:53:01 IST" name="backToCourseDetailsPage" finished-at="2023-02-27T00:53:02 IST" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToCourseDetailsPage -->
+        <test-method is-config="true" signature="clearPOMObject()[pri:0, instance:TestNG.BuyACourse@6eda5c9]" started-at="2023-02-27T00:53:02 IST" name="clearPOMObject" finished-at="2023-02-27T00:53:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObject -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:TestNG.BuyACourse@6eda5c9]" started-at="2023-02-27T00:53:02 IST" name="closeTheBrowser" finished-at="2023-02-27T00:53:02 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- TestNG.BuyACourse -->
+      <class name="TestNG.ScheduleFreeClass">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:TestNG.ScheduleFreeClass@56620197]" started-at="2023-02-27T00:52:42 IST" name="launchTheBrowser" finished-at="2023-02-27T00:52:45 IST" duration-ms="2552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="enterURL()[pri:0, instance:TestNG.ScheduleFreeClass@56620197]" started-at="2023-02-27T00:52:45 IST" name="enterURL" finished-at="2023-02-27T00:52:47 IST" duration-ms="2834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:TestNG.ScheduleFreeClass@56620197]" started-at="2023-02-27T00:52:47 IST" name="createPOMObject" finished-at="2023-02-27T00:52:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method signature="clickOnScheduleFreeClassButton()[pri:0, instance:TestNG.ScheduleFreeClass@56620197]" started-at="2023-02-27T00:52:47 IST" name="clickOnScheduleFreeClassButton" finished-at="2023-02-27T00:52:48 IST" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnScheduleFreeClassButton -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:TestNG.ScheduleFreeClass@56620197]" started-at="2023-02-27T00:52:48 IST" name="closeTheBrowser" finished-at="2023-02-27T00:52:49 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="clearPOMObject()[pri:0, instance:TestNG.ScheduleFreeClass@56620197]" started-at="2023-02-27T00:52:48 IST" name="clearPOMObject" finished-at="2023-02-27T00:52:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObject -->
+        <test-method is-config="true" signature="clearSystem()[pri:0, instance:TestNG.ScheduleFreeClass@56620197]" started-at="2023-02-27T00:53:02 IST" name="clearSystem" finished-at="2023-02-27T00:53:02 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearSystem -->
+      </class> <!-- TestNG.ScheduleFreeClass -->
+    </test> <!-- EdgeTesting -->
+  </suite> <!-- Regression -->
+</testng-results>
