@@ -8,6 +8,9 @@ import org.openqa.selenium.support.ui.Select;
 
 public class HomePage_POM {
 	
+	//WebElement
+	@FindBy(xpath = "(//a[@role='button'])[6]") private WebElement abc;
+	
 	@FindBy(xpath = "(//a[@role='button'])[6]") private WebElement buyACourse;
 	@FindBy(xpath = "(//input[@type='text'])[1]") private WebElement name;
 	@FindBy(xpath = "(//input[@type='text'])[2]") private WebElement mobileNo;
